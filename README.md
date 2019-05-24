@@ -22,9 +22,9 @@ Java SE-1.8 en adelante, se recomienda usar la última versión de Java.
 
 Obten la última versión de FacturoPorTi Java en:
 
-    git clone https://github.com/facturoporti/factura-electronica-Java
+    git clone https://github.com/facturoporti/factura-electronica-rest-api-java.git
 
-El projecto tiene agregados los archivos de ejemplo para diferentes tipos de CFDI,  puedes descargar las últimas versiones desde las siguientes ligas para integrar los a tu proyecto, contienen todo lo necesario para generar un CFDI solamente deberá de actualizarse la **fecha de creación** que esta en el JSON:
+El proyecto tiene agregados los archivos de ejemplo para diferentes tipos de CFDI,  puedes descargar las últimas versiones desde las siguientes ligas para integrar los a tu proyecto, contienen todo lo necesario para generar un CFDI solamente deberá de actualizarse la **fecha de creación** que esta en el JSON:
 
     http:/software.facturoporti.com.mx/TaaS/Json/Factura.json
     http:/software.facturoporti.com.mx/TaaS/Json/ComplementoPagos.json
@@ -187,7 +187,7 @@ Si deseas agregar o eliminar información descarga el **diccionario de datos** q
 
 2. Clona el repositorio
 
-    git clone git@github.com:yourUserName/factura-electronica-Java.git
+    git clone git@github.com:yourUserName/factura-electronica-rest-api-java.git
 
 
 3. Crea una rama 
