@@ -1,4 +1,4 @@
-﻿{
+{
   "DatosGenerales": {
     "Version": "3.3",
     "Usuario": "PruebasTimbrado",
@@ -74,7 +74,7 @@
   ],
   "Complemento": {
     "Donativos": {
-      "Leyenda": "Este comprobante ampara un donativo, el cual será destinado por la donataria a los fines propios de su objeto social. En el caso de que los bienes donados hayan sido deducidos previamente para los efectos del impuesto sobre la renta, este donativo no es deducible. La reproducción no autorizada de este comprobante constituye un delito en los términos de las disposiciones fiscales. Autorización publicada por la Secretaría de Hacienda y Crédito Público Número",
+      "Leyenda": "Este comprobante ampara un donativo, el cual sera destinado por la donataria a los fines propios de su objeto social. En el caso de que los bienes donados hayan sido deducidos previamente para los efectos del impuesto sobre la renta, este donativo no es deducible. La reproduccion no autorizada de este comprobante constituye un delito en los terminos de las disposiciones fiscales. Autorizacion publicada por la Secretaria de Hacienda y Credito Publico Numero",
       "FechaAutorizacion": "2019-05-14",
       "NumeroAutorizacion": "123456789"
     }

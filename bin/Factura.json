@@ -1,4 +1,4 @@
-﻿{
+{
   "DatosGenerales": {
     "Version": "3.3",
     "Usuario": "PruebasTimbrado",
@@ -58,7 +58,7 @@
     "Moneda": "MXN",
     "LugarExpedicion": "06470",
     "SubTotal": "100.00",
-    "Total": "100"
+    "Total": "116"
   },
   "Conceptos": [
     {
@@ -66,11 +66,19 @@
       "CodigoUnidad": "E48",
       "Unidad": "Servicio",
       "CodigoProducto": "84111506",
-      "Producto": "Recibo de donativo de una ambulancia",
+      "Producto": "Timbres de Facturacion",
       "PrecioUnitario": "100",
       "Importe": "100",
-      "Impuestos": []
+      "Impuestos": [
+        {
+          "TipoImpuesto": "1",
+          "Impuesto": "2",
+          "Factor": "1",
+          "Base": "100",
+          "Tasa": "0.160000",
+          "ImpuestoImporte": "16"
+        }
+      ]
     }
-  ],
-
+  ]
 }

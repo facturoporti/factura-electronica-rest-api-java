@@ -24,7 +24,6 @@ public class ConsumirApiRest {
     	
     	 // Se debe de actualizar la Fecha actual en el archivo ya que si no marcara error de timbrado
     	 String data = FileUtils.readFileToString(file, "UTF-8");
-    	 data = data.substring(1, data.length()); // Eliminamos Boom del archivo, se puede borrar esta linea solo es por el ejemplo
     	 
     	 //System.out.println("" + data);    
         
@@ -50,8 +49,7 @@ public class ConsumirApiRest {
    	 File file = FileUtils.getFile(MAIN_PATH + "Cancelar.json");
    	
    	 String data = FileUtils.readFileToString(file, "UTF-8");
-   	 data = data.substring(1, data.length()); // Eliminamos Boom del archivo, se puede borrar esta linea solo es por el ejemplo
-   	 
+
    	 //System.out.println("" + data);    
        
    	 System.out.println("");
