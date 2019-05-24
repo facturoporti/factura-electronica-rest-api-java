@@ -15,7 +15,7 @@ import org.apache.commons.io.filefilter.SuffixFileFilter;
 
 public class ConsumirApiRest {
     
-    private static final String MAIN_PATH = "C:\\Alejandro\\ConsumirApiRest\\resources\\";
+    private static final String MAIN_PATH = "C:\\Alejandro\\ConsumirApiRest\\Proyecto\\resources\\";
     private static final String URL_API = "http://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc/";
     
     public static void main(String[] args) throws Exception {
