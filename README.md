@@ -47,6 +47,7 @@ Para el caso del timbrado será necesario que el archivo que selecciones le **ac
 public class ConsumirApiRest {
     
     private static final String MAIN_PATH = "C:\\Alejandro\\ConsumirApiRest\\resources\\";
+    //URL de Produccion http://wcf.facturoporti.com.mx/Timbrado/Servicios.svc/ApiTimbrarCFDI
     private static final String URL_API = "http://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc/";
     
     public static void main(String[] args) throws Exception {
