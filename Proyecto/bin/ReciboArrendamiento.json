@@ -10,7 +10,7 @@
     "CSDPassword": "12345678a",
     "GeneraPDF": "true",
     "Logotipo": "",
-    "CFDI": "Factura",
+    "CFDI": "ReciboArrendamiento",
     "OpcionDecimales": "1",
     "NumeroDecimales": "2",
     "TipoCFDI": "Ingreso"
@@ -50,7 +50,7 @@
         "CodigoPostal": "62774"
       }
     },
-    "Fecha": "2019-05-29T23:59:15",
+    "Fecha": "2019-05-21T23:59:15",
     "Serie": "AB",
     "Folio": "1",
     "MetodoPago": "PUE - Pago en una sola exhibicion",
@@ -66,9 +66,10 @@
       "CodigoUnidad": "E48",
       "Unidad": "Servicio",
       "CodigoProducto": "84111506",
-      "Producto": "Timbres de Facturacion",
+      "Producto": "Servicios profesionales",
       "PrecioUnitario": "100",
       "Importe": "100",
+      "CuentaPredial": "12345678",
       "Impuestos": [
         {
           "TipoImpuesto": "1",

@@ -10,10 +10,10 @@
     "CSDPassword": "12345678a",
     "GeneraPDF": "true",
     "Logotipo": "",
-    "CFDI": "Factura",
+    "CFDI": "CartaPorte",
     "OpcionDecimales": "1",
     "NumeroDecimales": "2",
-    "TipoCFDI": "Ingreso"
+    "TipoCFDI": "Traslado"
   },
   "Encabezado": {
     "Emisor": {
@@ -50,7 +50,7 @@
         "CodigoPostal": "62774"
       }
     },
-    "Fecha": "2019-05-29T23:59:15",
+    "Fecha": "2019-05-21T23:59:15",
     "Serie": "AB",
     "Folio": "1",
     "MetodoPago": "PUE - Pago en una sola exhibicion",
@@ -58,7 +58,26 @@
     "Moneda": "MXN",
     "LugarExpedicion": "06470",
     "SubTotal": "100.00",
-    "Total": "116"
+    "Total": "100",
+
+    "Conductor": "Miguel Perez",
+    "Vehiculo": "Ford Silverado",
+    "Placas": "ABC-6743",
+    "Kilometros": "15000",
+    "FechaEntrega": "16 de Mayo del 2019",
+    "Remitente": "Almacenes de Wallmark CD MX",
+    "RemitenteDomicilio": "Mismo que el anterior",
+    "RemitenteLugarRecoger": "Camarones 129 colonia noche buena CDMX",
+    "Destinatario": "Wallmark CEDIS Merida ",
+    "DestinatarioDomicilio": "Mismo del CEDIS",
+    "DestinatarioLugarEntrega": "Reforma 499 colonia los atrios Merida Merida",
+    "DescripcionMercancia": "Articulos perecederos diversos",
+    "Peso": "12000",
+    "MetrosCubicos": "1009",
+    "Litros": "0",
+    "MaterialPeligroso": "No",
+    "ValorDeclarado": "160 000",
+    "Indemnizacion": "Ninguna clausula de indeminizacion"
   },
   "Conceptos": [
     {
@@ -66,19 +85,10 @@
       "CodigoUnidad": "E48",
       "Unidad": "Servicio",
       "CodigoProducto": "84111506",
-      "Producto": "Timbres de Facturacion",
+      "Producto": "Cajas de Azucar de 50 kilogramos",
       "PrecioUnitario": "100",
       "Importe": "100",
-      "Impuestos": [
-        {
-          "TipoImpuesto": "1",
-          "Impuesto": "2",
-          "Factor": "1",
-          "Base": "100",
-          "Tasa": "0.160000",
-          "ImpuestoImporte": "16"
-        }
-      ]
+      "Impuestos": []
     }
   ]
 }

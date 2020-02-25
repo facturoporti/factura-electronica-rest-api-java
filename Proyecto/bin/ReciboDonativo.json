@@ -10,7 +10,7 @@
     "CSDPassword": "12345678a",
     "GeneraPDF": "true",
     "Logotipo": "",
-    "CFDI": "Factura",
+    "CFDI": "ReciboDonativo",
     "OpcionDecimales": "1",
     "NumeroDecimales": "2",
     "TipoCFDI": "Ingreso"
@@ -50,7 +50,7 @@
         "CodigoPostal": "62774"
       }
     },
-    "Fecha": "2019-05-29T23:59:15",
+    "Fecha": "2019-05-21T23:59:15",
     "Serie": "AB",
     "Folio": "1",
     "MetodoPago": "PUE - Pago en una sola exhibicion",
@@ -58,7 +58,7 @@
     "Moneda": "MXN",
     "LugarExpedicion": "06470",
     "SubTotal": "100.00",
-    "Total": "116"
+    "Total": "100"
   },
   "Conceptos": [
     {
@@ -66,19 +66,17 @@
       "CodigoUnidad": "E48",
       "Unidad": "Servicio",
       "CodigoProducto": "84111506",
-      "Producto": "Timbres de Facturacion",
+      "Producto": "Recibo de donativo de una ambulancia",
       "PrecioUnitario": "100",
       "Importe": "100",
-      "Impuestos": [
-        {
-          "TipoImpuesto": "1",
-          "Impuesto": "2",
-          "Factor": "1",
-          "Base": "100",
-          "Tasa": "0.160000",
-          "ImpuestoImporte": "16"
-        }
-      ]
+      "Impuestos": []
     }
-  ]
+  ],
+  "Complemento": {
+    "Donativos": {
+      "Leyenda": "Este comprobante ampara un donativo, el cual sera destinado por la donataria a los fines propios de su objeto social. En el caso de que los bienes donados hayan sido deducidos previamente para los efectos del impuesto sobre la renta, este donativo no es deducible. La reproduccion no autorizada de este comprobante constituye un delito en los terminos de las disposiciones fiscales. Autorizacion publicada por la Secretaria de Hacienda y Credito Publico Numero",
+      "FechaAutorizacion": "2019-05-14",
+      "NumeroAutorizacion": "123456789"
+    }
+  }
 }

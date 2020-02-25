@@ -10,10 +10,10 @@
     "CSDPassword": "12345678a",
     "GeneraPDF": "true",
     "Logotipo": "",
-    "CFDI": "Factura",
+    "CFDI": "Pago",
     "OpcionDecimales": "1",
     "NumeroDecimales": "2",
-    "TipoCFDI": "Ingreso"
+    "TipoCFDI": "Pago"
   },
   "Encabezado": {
     "Emisor": {
@@ -50,35 +50,33 @@
         "CodigoPostal": "62774"
       }
     },
-    "Fecha": "2019-05-29T23:59:15",
+    "Fecha": "2019-05-21T23:59:15",
     "Serie": "AB",
     "Folio": "1",
     "MetodoPago": "PUE - Pago en una sola exhibicion",
     "FormaPago": "99-Por Definir",
     "Moneda": "MXN",
     "LugarExpedicion": "06470",
-    "SubTotal": "100.00",
-    "Total": "116"
+    "SubTotal": "0",
+    "Total": "0"
   },
-  "Conceptos": [
-    {
-      "Cantidad": "1",
-      "CodigoUnidad": "E48",
-      "Unidad": "Servicio",
-      "CodigoProducto": "84111506",
-      "Producto": "Timbres de Facturacion",
-      "PrecioUnitario": "100",
-      "Importe": "100",
-      "Impuestos": [
-        {
-          "TipoImpuesto": "1",
-          "Impuesto": "2",
-          "Factor": "1",
-          "Base": "100",
-          "Tasa": "0.160000",
-          "ImpuestoImporte": "16"
-        }
-      ]
-    }
-  ]
+  "Conceptos": [],
+  "Complemento": {
+    "Pagos": [
+      {
+        "FechaPago": "2019-05-21T01:03:05",
+        "FormaPago": "03 - Transferencia electronica de fondos",
+        "Moneda": "MXN",
+        "DocumentosRelacionados": [
+          {
+            "UUID": "599C5833-B9EB-4FDA-B677-F63EEE93D772",
+            "MetodoPago": "PUE - Pago en una sola exhibicion",
+            "ImporteSaldoAnterior": "116",
+            "ImportePagado": "116",
+            "ImporteSaldoInsoluto": "0"
+          }
+        ]
+      }
+    ]
+  }
 }
