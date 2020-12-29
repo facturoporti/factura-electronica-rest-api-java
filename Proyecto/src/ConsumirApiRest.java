@@ -18,9 +18,8 @@ public class ConsumirApiRest {
     private static final String MAIN_PATH = "C:\\Alejandro\\ConsumirApiRest\\Proyecto\\resources\\";
     private static final String URL_API = "https://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc/";
     
-    public static void main(String[] args) throws Exception {
-             
-    	/*
+    public static void main(String[] args) throws Exception {             
+    	
     	 File file = FileUtils.getFile(MAIN_PATH + "Factura.json");
     	
     	 // Se debe de actualizar la Fecha actual en el archivo ya que si no marcara error de timbrado
@@ -38,8 +37,7 @@ public class ConsumirApiRest {
 	      		 
 		 // Se debe de leer los valores del servicio de acuerdo a las necesidades de cada caso
 		 System.out.println("Respuesta del servicio: " + response);   
-		 */
-		 
+				 
     	 //Codigo para realizar la cancelacion de CFDI
 		 CancelarCFDI();
 		         
