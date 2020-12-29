@@ -13,7 +13,12 @@
     "CFDI": "Factura",
     "OpcionDecimales": "1",
     "NumeroDecimales": "2",
-    "TipoCFDI": "Ingreso"
+    "TipoCFDI": "Ingreso",
+    "EnviaEmail": "true",
+    "ReceptorEmail": "bart_alex@hotmail.com",
+    "ReceptorCC": "",
+    "ReceptorCCO": "",
+    "EmailMensaje": "prueba de envio y generacion de factura por rest api desde el servicio de timbrado de FacturoPorTi"
   },
   "Encabezado": {
     "Emisor": {
@@ -50,7 +55,7 @@
         "CodigoPostal": "62774"
       }
     },
-    "Fecha": "2019-05-29T23:59:15",
+    "Fecha": "2020-12-28T23:59:15",
     "Serie": "AB",
     "Folio": "1",
     "MetodoPago": "PUE - Pago en una sola exhibicion",

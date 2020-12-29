@@ -13,7 +13,12 @@
     "CFDI": "Pago",
     "OpcionDecimales": "1",
     "NumeroDecimales": "2",
-    "TipoCFDI": "Pago"
+    "TipoCFDI": "Pago",
+    "EnviaEmail": "true",
+    "ReceptorEmail": "micorreo@midominio.com",
+    "ReceptorCC": "",
+    "ReceptorCCO": "",
+    "EmailMensaje": "prueba de envio y generacion de factura por rest api desde el servicio de timbrado de FacturoPorTi"
   },
   "Encabezado": {
     "Emisor": {
