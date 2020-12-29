@@ -26,15 +26,15 @@ Obten la última versión de FacturoPorTi Java en:
 
 El proyecto tiene agregados los archivos de ejemplo para diferentes tipos de CFDI,  puedes descargar las últimas versiones desde las siguientes ligas para integrar los a tu proyecto, contienen todo lo necesario para generar un CFDI solamente deberá de actualizarse la **fecha de creación** que esta en el JSON:
 
-    http:/software.facturoporti.com.mx/TaaS/Json/Factura.json
-    http:/software.facturoporti.com.mx/TaaS/Json/ComplementoPagos.json
-    http:/software.facturoporti.com.mx/TaaS/Json/CartaPorte.json  
-    http:/software.facturoporti.com.mx/TaaS/Json/NotaCargo.json
-    http:/software.facturoporti.com.mx/TaaS/Json/NotaCredito.json
-    http:/software.facturoporti.com.mx/TaaS/Json/ReciboHonorarios.json
-    http:/software.facturoporti.com.mx/TaaS/Json/ReciboArrendamiento.json
-    http:/software.facturoporti.com.mx/TaaS/Json/ReciboDonativo.json
-    http:/software.facturoporti.com.mx/TaaS/Json/Cancelar.json
+    https:/software.facturoporti.com.mx/TaaS/Json/Factura.json
+    https:/software.facturoporti.com.mx/TaaS/Json/ComplementoPagos.json
+    https:/software.facturoporti.com.mx/TaaS/Json/CartaPorte.json  
+    https:/software.facturoporti.com.mx/TaaS/Json/NotaCargo.json
+    https:/software.facturoporti.com.mx/TaaS/Json/NotaCredito.json
+    https:/software.facturoporti.com.mx/TaaS/Json/ReciboHonorarios.json
+    https:/software.facturoporti.com.mx/TaaS/Json/ReciboArrendamiento.json
+    https:/software.facturoporti.com.mx/TaaS/Json/ReciboDonativo.json
+    https:/software.facturoporti.com.mx/TaaS/Json/Cancelar.json
 
 ## Timbrar
 
@@ -47,7 +47,7 @@ Para el caso del timbrado será necesario que el archivo que selecciones le **ac
 public class ConsumirApiRest {
     
     private static final String MAIN_PATH = "C:\\Alejandro\\ConsumirApiRest\\resources\\";
-    //URL de Produccion http://wcf.facturoporti.com.mx/Timbrado/Servicios.svc/ApiTimbrarCFDI
+    //URL de Produccion https://wcf.facturoporti.com.mx/Timbrado/Servicios.svc/ApiTimbrarCFDI
     private static final String URL_API = "https://wcfpruebas.facturoporti.com.mx/Timbrado/Servicios.svc/";
     
     public static void main(String[] args) throws Exception {
@@ -178,7 +178,7 @@ Ejecuta el método para cancelar mediante el cúal se llamará el servicio de Re
 
 ## Documentación Adicional
 
-Si deseas agregar o eliminar información descarga el **diccionario de datos** que contiene todos los atributos y su descripción de los valores que se permiten http://software.facturoporti.com.mx/TaaS/Diccionario/Rest-Api-V-2.3.7.xlsx
+Si deseas agregar o eliminar información descarga el **diccionario de datos** que contiene todos los atributos y su descripción de los valores que se permiten https://software.facturoporti.com.mx/TaaS/Diccionario/Rest-Api-V-2.3.7.xlsx
 
 
 
