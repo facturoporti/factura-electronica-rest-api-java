@@ -2,7 +2,7 @@
 
 ![banner](GitHub.png)
 
-# Código en Java del servicio Rest API para Timbrar y Cancelar
+# Código para llamadas a servicios de Rest API
 
 ![Java badge](subtitulo-badge.png)
 
